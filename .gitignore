@@ -1,44 +1,24 @@
-#
-# This source file is part of the Stanford HealthGPT project
-#
-# SPDX-FileCopyrightText: 2023 Stanford University & Project Contributors (see CONTRIBUTORS.md)
-#
-# SPDX-License-Identifier: MIT
-#
-
-# Swift Package Manager
-*.xcodeproj
-.swiftpm
-.derivedData
-.build/
-!HealthGPT.xcodeproj
-
-# IDE related folders
-.idea
+# macOS
+.DS_Store
 
 # Xcode
+build/
+DerivedData/
 xcuserdata/
-*.ipa
-*.dSYM
-*.dSYM.zip
+*.xcuserstate
 
-# Other files
-.DS_Store
-.env
-
-# Tests
-report.junit
-report.html
-HealthGPT.xcresult
+# SwiftPM
+.swiftpm/xcode
+.swiftpm
+Packages/
+Package.resolved
 
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-firebase-debug.log*
-firebase-debug.*.log*
 
-# Firebase cache
-.firebase/
+# User settings
+*.swp
+*.swo
+
+# Editor backups
+*~
